@@ -113,11 +113,11 @@ footer {
   margin-top: 60px;
 }
 
-body:has(h1:contains("404")) {
+body:has(h1("404")) {
   text-align: center;
 }
 
-body:has(h1:contains("404")) a {
+body:has(h1("404")) a {
   display: inline-block;
   margin-top: 16px;
   padding: 10px 20px;
